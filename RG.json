@@ -1,0 +1,10 @@
+{
+    "id": "/subscriptions/[REDACTED]",
+    "name": "[REDACTED]",
+    "type": "Microsoft.Resources/resourceGroups",
+    "location": "eastus2",
+    "tags": {},
+    "properties": {
+        "provisioningState": "Succeeded"
+    }
+}
