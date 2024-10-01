@@ -1,0 +1,79 @@
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "REDACTED",
+    "name": "REDACTED",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "brazilsouth",
+    "tags": {
+        "python": "test"
+    },
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2022-06-17T18:10:20.8801536Z",
+            "key2": "2022-06-17T18:10:20.8801536Z"
+        },
+        "allowCrossTenantReplication": true,
+        "privateEndpointConnections": [],
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "allowSharedKeyAccess": true,
+        "networkAcls": {
+            "resourceAccessRules": [],
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [
+                {
+                    "id": "REDACTED",
+                    "action": "Allow",
+                    "state": "Succeeded"
+                }
+            ],
+            "ipRules": [
+                {
+                    "value": "REDACTED",
+                    "action": "Allow"
+                },
+                {
+                    "value": "REDACTED",
+                    "action": "Allow"
+                },
+                {
+                    "value": "REDACTED",
+                    "action": "Allow"
+                }
+            ],
+            "defaultAction": "Deny"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2022-06-17T18:10:20.8801536Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2022-06-17T18:10:20.8801536Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2022-06-17T18:10:20.8332870Z",
+        "primaryEndpoints": {
+            "REDACTED"
+        },
+        "primaryLocation": "brazilsouth",
+        "statusOfPrimary": "available"
+    }
+}
